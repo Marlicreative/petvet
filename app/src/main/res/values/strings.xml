@@ -5,4 +5,13 @@
     <string name="genero">Macho</string>
     <string name="nacimiento">31/07</string>
     <string name="edad">5 años</string>
+    <string name="biografia">Hola, me gusta mucho salir a pasear, atrapar la pelota, jugar correteadas y me fascina comer galletitas en forma de huesos.</string>
+    <string name="recordar">Recordar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="tv_cita">CITA</string>
+    <string name="tv_vacuna">VACUNAR</string>
+    <string name="tv_desparasitar">DESPARASITAR</string>
+    <string name="tv_alimentar">ALIMENTAR</string>
+
+
 </resources>

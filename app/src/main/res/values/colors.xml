@@ -5,5 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="petvetPrimary">#586d80</color>
     <color name="petvetSecondary">#23a3dc</color>
+    <color name="petvetText">#444444</color>
+    <color name="petvetOrange">#f2ba7c</color>
+    <color name="petvetPurple">#7c7cf2</color>
+    <color name="petvetPink">#f47a9a</color>
 
 </resources>
