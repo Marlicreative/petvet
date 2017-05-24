@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Petvet</string>
+    <string name="name_pet">Zoe</string>
+    <string name="raza">Chihuahueño</string>
+    <string name="genero">Macho</string>
+    <string name="nacimiento">31/07</string>
+    <string name="edad">5 años</string>
+</resources>
