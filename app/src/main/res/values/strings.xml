@@ -12,6 +12,7 @@
     <string name="tv_vacuna">VACUNAR</string>
     <string name="tv_desparasitar">DESPARASITAR</string>
     <string name="tv_alimentar">ALIMENTAR</string>
+    <string name="title_activity_localizacion">Map</string>
 
 
 </resources>
