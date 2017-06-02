@@ -11,28 +11,29 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by Margot on 26/05/17.
+ * Created by Margot on 30/05/17.
  */
 
-public class Perfil extends AppCompatActivity {
+public class Login extends AppCompatActivity{
 
-    @BindView(R.id.btn_edit_perfil)
-    Button btn_edit_perfil;
+    @BindView(R.id.btn_logindos)
+    Button btn_logindos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pefil);
+        setContentView(R.layout.login);
         ButterKnife.bind(this);
 
-        btn_edit_perfil.setOnClickListener(new View.OnClickListener() {
+        btn_logindos.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Perfil.this, FormPerfil.class);
+                Intent intent = new Intent(Login.this, Perfil.class);
                 startActivity(intent);
             }
 
         });
+
     }
 }

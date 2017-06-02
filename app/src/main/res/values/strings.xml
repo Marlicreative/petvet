@@ -13,6 +13,10 @@
     <string name="tv_desparasitar">DESPARASITAR</string>
     <string name="tv_alimentar">ALIMENTAR</string>
     <string name="title_activity_localizacion">Map</string>
+    <string name="tv_politicas">Al usar Petvet aceptas las Políticas de privacidad</string>
+    <string name="tv_restablecer">¿Has olvidado tu contraseña?</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Regístrate</string>
 
 
 </resources>

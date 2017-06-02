@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "70196867855",
+    "firebase_url": "https://petvet-3f17d.firebaseio.com",
+    "project_id": "petvet-3f17d",
+    "storage_bucket": "petvet-3f17d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70196867855:android:a0e2968d5889be88",
+        "android_client_info": {
+          "package_name": "com.margot.petvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70196867855-c16v0vrnobb2208k410k27bn779kh6gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB353SW_KStx5Oei4b4-JGv31r0iT1ZM4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
