@@ -141,8 +141,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/petvetPrimary"
                 android:text="Editar"
-                android:textColor="#ffffff"
-                android:onClick=" "/>
+                android:textColor="#ffffff"/>
         </LinearLayout>
 
         <LinearLayout

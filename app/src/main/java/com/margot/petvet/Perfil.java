@@ -19,6 +19,7 @@ public class Perfil extends AppCompatActivity {
     @BindView(R.id.btn_edit_perfil)
     Button btn_edit_perfil;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -25,7 +25,7 @@ import butterknife.ButterKnife;
  * Created by Margot on 30/05/17.
  */
 
-public class Register extends AppCompatActivity {
+public class Register extends Activity {
 
     @BindView(R.id.btn_registerdos)
     Button btn_registerdos;
@@ -44,16 +44,6 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
         ButterKnife.bind(this);
-
-       /** btn_registerdos.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Register.this, Perfil.class);
-                startActivity(intent);
-            }
-
-        });*/
 
         mAuth = FirebaseAuth.getInstance();
         mNameField = (EditText) findViewById(R.id.et_name);
@@ -77,7 +67,7 @@ public class Register extends AppCompatActivity {
         String password = mPasswordField.getText().toString().trim();
 
         if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(password)){
-            mProgress.setMessage("Espere un momento");
+            mProgress.setMessage("Espera un momento");
             mProgress.show();
             mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -87,19 +77,8 @@ public class Register extends AppCompatActivity {
                             if (task.isSuccessful()){
                                 Intent intent = new Intent(Register.this, Perfil.class);
                                 startActivity(intent);
-                                /**String user_id = mAuth.getCurrentUser().getUid();
-                                Toast.makeText(Register.this, user_id, Toast.LENGTH_SHORT).show();
-                                btn_registerdos.setOnClickListener(new View.OnClickListener() {
-
-                                    @Override
-                                    public void onClick(View view) {
-                                        Intent intent = new Intent(Register.this, Perfil.class);
-                                        startActivity(intent);
-                                    }
-
-                                });*/
                             }else {
-                                Toast.makeText(getApplicationContext(),"Revisa tus datos",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(),"Ingresa un corroe válido",Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

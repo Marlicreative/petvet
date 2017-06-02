@@ -1,5 +1,6 @@
 package com.margot.petvet;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +10,7 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     @BindView(R.id.btn_login) Button btn_login;
     @BindView(R.id.btn_register) Button btn_register;
 
